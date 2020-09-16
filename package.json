@@ -4,7 +4,7 @@
   "description": "source code implementation",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test:promise": "mocha ./test/promise"
   },
   "repository": {
     "type": "git",
@@ -19,5 +19,15 @@
   "bugs": {
     "url": "https://github.com/792472461/learning-process/issues"
   },
-  "homepage": "https://github.com/792472461/learning-process#readme"
+  "homepage": "https://github.com/792472461/learning-process#readme",
+  "devDependencies": {
+    "promises-aplus-tests": "^2.1.2"
+  },
+  "dependencies": {
+    "jest": "^26.4.2",
+    "mocha": "^8.1.3"
+  },
+  "directories": {
+    "test": "test"
+  }
 }
